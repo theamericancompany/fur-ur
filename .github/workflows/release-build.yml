@@ -764,8 +764,7 @@ jobs:
               -- \
               -df \
               --nocheck \
-              --skippgpcheck \
-              --skipinteg
+              --skippgpcheck
           /entrypoint.sh \
             echo \
               "Home: ${HOME}"
